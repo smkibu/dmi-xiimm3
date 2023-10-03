@@ -1,5 +1,6 @@
 ---
 deployment:
-tasks:
-- export DEPLOYPATH=/home/pelh8932/public_html/dmi-xiimm3
-- /bin/cp -r * $DEPLOYPATH
+ tasks:
+ - export DEPLOYPATH=/home/pelh8932/public_html/dmi-xiimm3
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp style.css $DEPLOYPATH
