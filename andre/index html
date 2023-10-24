@@ -1,7 +1,7 @@
 <!DOCTYPE html> <!-- ini adalah tag untuk membuat versi html 5 -->
 <html lang="en">
 <head>
-<title>CSS Website Layout</title>
+<title>hobi ternak</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -97,8 +97,9 @@ body {
 
 <div class="row">
   <div class="column side">
-    <h2>Side</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    <h2>budidaya ikan koi</h2>
+    <pIkan koi termasuk ke dalam golongan ikan carp(karper). Harga koi sangat ditentukan berdasarkan bentuk badan dan kualitas tampilan warna.Ikan koi pertama kali dikenal pada dinasti Chin tahun 265 dan 316 Masehi. Koi dengan keindahan warna dan tingkah laku seperti yang kita ketahui saat ini,mulai dikembangkan di Jepang 200 tahun yang lalu dipegunungan Niigata oleh petani Yamakoshi. Pemuliaan yang dilakukan bertahun-tahun menghasilkan garis keturunan yang menjadi standar penilaian koi.
+Beberapa varietas yang tersebar ke seluruh dunia digolongkan Asosiasi Koi Jepang (en Nippon Airinkai) menjadi 13 kelompok antara lain: Bekko, Utsurinomo, Asagi-Shusui,Goromo,Kawarimono, Ogon dan Hikari-moyomono. Sedangkan 5 golongan utama yaitu Kohaku, Sanke, Showa,Hirarinuji dan Kawarigoi.</p>
   </div>
   
   <div class="column middle">
