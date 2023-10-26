@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>egi mustofa</title>
+    <style>
+      header {
+  background-image: url(https://3.bp.blogspot.com/-ndEIAfcd5cg/Vq9sEf3RwxI/AAAAAAAAI4k/XmCUf4B9onA/s1600/hewan%2Blangka.JPG);
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #FFFB73;
+}
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover {
+            background-color: white;
+            color: black;
+            
+        }
+         article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+      footer {
+  background-color: #0C356A;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>macam macam nama hewan menurut species</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Burung">burung</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Mamalia">mamalia</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Ikan">ikan</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Reptil">reptil</a></li>
+      </ul>
+    </nav>
+    <article>
+      <p>Mamalia atau binatang menyusui atau (dari bahasa Latin mamma, 'payudara') 
+adalah kelas hewan vertebrata yang dicirikan oleh adanya kelenjar susu 
+(yang pada hewan betina menghasilkan susu sebagai sumber makanan anaknya), 
+neokorteks, rambut, dan tiga tulang di telinga tengah. Karakteristik-karakteristik 
+ini membedakan mereka dari reptil dan burung, yang divergensi genetiknya terjadi 
+pada periode Karbon, lebih dari 300 juta tahun yang lalu. Sekitar 6.400 spesies 
+mamalia yang masih sintas (bertahan hingga kini) telah dideskripsikan. Ordo 
+terbesar dalam mamalia adalah Rodentia (hewan pengerat), Chiroptera (kelelawar), 
+dan Eulipotyphla (landak susu, tikus tanah, celurut, dan sebagainya). Tiga ordo 
+terbesar berikutnya adalah Primata (termasuk manusia, kera, monyet, dan lain-lain), 
+Artiodactyla (hewan berkuku genap, termasuk Cetacea), dan Carnivora 
+(kucing, anjing, anjing laut, dan lainnya). 
+
+Dalam kladistika, yang mencerminkan sejarah evolusi, mamalia adalah satu-satunya 
+anggota Synapsida yang masih tersisa. Synapsida dan Sauropsida (reptil dan burung) 
+dimasukkan dalam klad Amniota yang lebih besar. Leluhur mamalia Synapsida awal 
+adalah Sphenacodontia di bawah Pelycosauria, kelompok yang juga mencakup Dimetrodon 
+nonmamalia. Pada akhir periode Karbon sekitar 300 juta tahun yang lalu, mamalia 
+bercabang dari garis Sauropsida yang mengarah ke reptil dan burung masa kini. 
+Garis keturunan yang mengikuti kelompok batang sphenacodontia terpecah menjadi 
+beberapa kelompok Synapsida nonmamalia yang beragam—kadang-kadang salah disebut 
+sebagai reptil mirip mamalia—sebelum memunculkan Therapsida pada periode Permian Awal. 
+Mamalia berasal dari Cynodontia, kelompok Therapsida tingkat lanjut, pada kala Trias Akhir. 
+Ordo mamalia modern muncul pada periode Paleogen dan Neogen dari era Senozoikum setelah 
+kepunahan dinosaurus nonunggas. Sejak 66 juta tahun yang lalu, mamalia telah menjadi 
+kelompok hewan darat yang dominan hingga saat ini.
+
+Tipe dasar tubuh mamalia adalah berkaki empat dan kebanyakan mamalia menggunakan keempat 
+ekstremitas mereka untuk lokomosi darat. Namun, sejumlah mamalia memiliki ekstremitas 
+yang beradaptasi untuk kehidupan di laut, di udara, di pohon, di bawah tanah, atau untuk 
+berjalan dengan dua kaki. Ukuran tubuh mamalia berkisar dari kelelawar Craseonycteridae 
+yang besarnya 30–40 mm (1,2–1,6 inci) hingga paus biru yang besarnya 30 m (98 kaki)—mungkin 
+hewan terbesar yang pernah hidup. Umur maksimum mamalia bervariasi dari dua tahun pada celurut 
+sampai 211 tahun pada paus kepala busur. Semua mamalia modern melahirkan anak, kecuali lima 
+spesies Monotremata yang merupakan mamalia bertelur. Placentalia adalah kelompok mamalia yang 
+banyak spesiesnya. Mereka memiliki plasenta untuk memberi makan janin selama masa gestasi.
+
+Mayoritas mamalia merupakan makhluk yang cerdas, dan sebagian mamalia memiliki otak yang besar, 
+kesadaran diri, dan mampu menggunakan alat. Mamalia dapat berkomunikasi dan bersuara dengan 
+beberapa cara, termasuk menghasilkan ultrasonik, menandai aroma, memberi sinyal alarm, menyanyi, 
+dan menggunakan ekolokasi. Mamalia dapat mengatur diri mereka sendiri ke dalam kelompok fisi-fusi, 
+harem, dan hierarki, tetapi mereka juga bisa soliter dan teritorial. Kebanyakan mamalia merupakan 
+hewan poligini, tetapi beberapa mamalia dapat menjadi monogami atau poliandri.
+
+Domestikasi berbagai jenis mamalia oleh manusia memainkan peran utama dalam Revolusi Neolitikum, yang 
+menjadikan manusia mengubah sistem berburu dan meramu menjadi bertani untuk mendapatkan 
+sumber makanan utama. Hal ini menyebabkan restrukturisasi besar masyarakat manusia dari nomaden ke menetap 
+dan membentuk lebih banyak kerja sama di antara kelompok yang lebih besar dan selanjutnya menjadi semakin 
+besar, hingga akhirnya mengembangkan peradaban. Mamalia domestik menyediakan tenaga untuk transportasi 
+dan pertanian, menjadi sumber makanan (daging dan produk susu), serta dimanfaatkan rambut dan kulitnya. 
+Mamalia juga diburu dan dilombakan dalam olahraga, serta digunakan sebagai organisme model dalam sains. 
+Mamalia telah digambarkan dalam seni sejak zaman Paleolitikum dan muncul dalam sastra, film, mitologi, 
+dan agama. Penurunan jumlah dan kepunahan banyak mamalia didorong oleh perburuan liar, perusakan habitat, 
+dan terutama deforestasi./p>
+    </article>
+    <footer>
+      <p>ini web ngawur ga ngotak si:v</p>
+    </footer>
+  </body>
+</html>￼Enter
