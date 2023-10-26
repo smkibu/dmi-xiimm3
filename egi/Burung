@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>egi mustofa</title>
+    <style>
+      header {
+  background-image: url(https://3.bp.blogspot.com/-ndEIAfcd5cg/Vq9sEf3RwxI/AAAAAAAAI4k/XmCUf4B9onA/s1600/hewan%2Blangka.JPG);
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #FFFB73;
+}
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover {
+            background-color: white;
+            color: black;
+            
+        }
+         article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+      footer {
+  background-color: #0C356A;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>macam macam nama hewan menurut species</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Burung">burung</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Mamalia">mamalia</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Ikan">ikan</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Reptil">reptil</a></li>
+      </ul>
+    </nav>
+    <article>
+      <p>Burung adalah anggota kelompok hewan bertulang belakang (vertebrata) 
+yang memiliki bulu dan sayap. Jenis-jenis burung begitu bervariasi, mulai dari 
+burung kolibri yang kecil dan dapat mengepakkan sayap dengan sangat 
+cepat, penguin yang menyelam dengan sayapnya, hingga burung unta, yang lebih 
+tinggi dari manusia. Sebagian besar spesies burung di dunia mampu terbang 
+menggunakan sayapnya (mis. bebek, angsa, burung gereja, pelikan, burung hantu, 
+elang, cenderawasih, dan masih banyak lagi), kecuali beberapa jenis burung 
+yang biasanya endemik di tempat tertentu, seperti burung unta, moa, kasuari, 
+kiwi, penguin, dan sebagainya. Diperkirakan terdapat sekitar 8.800–10.200 
+spesies burung di seluruh dunia; sekitar 1.500 jenis di antaranya ditemukan 
+di Indonesia. Berbagai jenis burung ini secara ilmiah digolongkan ke dalam kelas Aves.
+
+Saat ini, burung diketahui merupakan turunan dari kelompok dinosaurus theropoda berbulu, 
+dan dengan demikian merupakan satu-satunya anggota dinosaurus yang masih hidup. Dengan 
+demikian juga, kerabat terdekat burung yang masih hidup adalah buaya (anggota dari klad 
+Archosaurus yang masih tersisa adalah burung dan buaya). Burung adalah keturunan aviala 
+purba (yang anggotanya termasuk Archaeopteryx) yang pertama kali muncul sekitar 160 juta 
+tahun yang lalu di Tiongkok. Menurut bukti DNA, burung modern (Neornithes) berevolusi 
+pada periode Kapur Pertengahan hingga Akhir, dan melakukan diversifikasi secara cepat dan 
+mencolok sekitar waktu peristiwa kepunahan Kapur–Paleogen 66 juta tahun yang lalu, yang 
+membunuh pterosaurus dan semua dinosaurus nonburung.</p>
+    </article>
+    <footer>
+      <p>ini web ngawur ga ngotak si:v</p>
+    </footer>
+  </body>
+</html>
