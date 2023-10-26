@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>egi mustofa</title>
+    <style>
+      header {
+  background-image: url(https://3.bp.blogspot.com/-ndEIAfcd5cg/Vq9sEf3RwxI/AAAAAAAAI4k/XmCUf4B9onA/s1600/hewan%2Blangka.JPG);
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #FFFB73;
+}
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover {
+            background-color: white;
+            color: black;
+            
+        }
+         article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+      footer {
+  background-color: #0C356A;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>macam macam nama hewan menurut species</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Burung">burung</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Mamalia">mamalia</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Ikan">ikan</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Reptil">reptil</a></li>
+      </ul>
+    </nav>
+    <article>
+      <p>Reptil (binatang melata, atau dalam bahasa Latin "reptans" 
+artinya 'melata' atau 'merayap') adalah kelompok hewan vertebrata 
+berdarah dingin dan memiliki sisik yang menutupi tubuhnya. 
+Reptilia adalah tetrapoda (hewan dengan empat tungkai) dan menelurkan 
+telur yang embrionya diselubungi oleh membran amniotik. Sekarang ini 
+mereka menghidupi setiap benua kecuali Antarktika.</p>
+    </article>
+    <footer>
+      <p>ini web ngawur ga ngotak si:v</p>
+    </footer>
+  </body>
+</html
