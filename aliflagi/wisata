@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!-- ini adalah tag untuk membuat versi html 5 -->
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zneL18brGQqjKbMyTJeI-QHaE4%26pid%3DApi&f=1&ipt=31e04883c6ea3aa4e11803d70b56991f1037fcc3a11f3a2d02cab3bf8b8c0270&ipo=images");
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+div {
+  overflow: auto;
+}
+.column.side {
+  width: 20%;
+  background-color: LightGray;
+  overflow: auto;
+}
+
+/* Middle column */
+.column.middle {
+  width: 80%;
+}
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: LightGray;
+  padding: 10px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>wisata jember</h1>
+  <p>selmat datang di web site kami selamat menyaksikan .</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="#">wisata</a>
+  <a href="https://hargatiketpromo.com/harga-tiket-masuk-pantai-papuma/">tiket</a>
+  <a href="#">pelayanan</a>
+</div>
+
+  
+  <div class="column middle">
+    <h2>klik di sebelah kanan untuk melihat berbagai wisata di jember</h2>
+    <p></p>
+  </div>
+  
+  <div class="column side">
+  <h1>LOKASI WISATA</h1>
+ <h4> <a href="https://regional.kompas.com/read/2022/08/18/063000478/pantai-papuma--daya-tarik-harga-tiket-dan-jam-buka?page=all">pantai papuma</a></h4>
+ <h4> <a href="https://travel.kompas.com/read/2019/08/29/071200427/teluk-love-jember-yang-romantis-dengan-bentuk-hati?page=all">teluk love</a></h4>
+  <H4><a href="https://radarjember.jawapos.com/ekonomi-bisnis/791123209/liburan-wisata-kampung-durian-jember-ramai-dikunjungi-warga">kampung durian</a></H4>
+  <h4><a href="https://surabaya.kompas.com/read/2023/09/16/070000178/pantai-payangan-di-jember--daya-tarik-harga-tiket-dan-rute?page=all">pantai payangan </a></h4>
+  </div>
+</div>
+
+<div class="footer">
+  <p>terima kasi telah datang di website kami
+  			support by.alif html tutorial </p>
+  
+</div>
+  
+</body>
+</html>
