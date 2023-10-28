@@ -1,123 +1,89 @@
-<!DOCTYPE html> <!-- ini adalah tag untuk membuat versi html 5 -->
-<html lang="en">
-<head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  background-color: #8532a8
-  background-image: url(https://i1.wp.com/uangonline.com/wp-content/uploads/2018/08/penataan-warung-kecil.jpg?resize=768%2C512&ssl=1);
-  padding: 20px;
+<html>
+  <head>
+    <title>web Warung Jalanan</title>
+      <style>
+      header {
+  background-image: url("https://alindrabangunan.com/wp-content/uploads/2020/10/3-Bisnis-yang-Makin-Cuan-di-Era-Transaksi-Digital-Barakata_id.jpg");
+  padding: 30px;
   text-align: center;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #8532a8
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px black;
+ } 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover {
+            background-color: white;
+            color: black;
+            
+        }
+        article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-image: url("https://wallpapercave.com/wp/wp4586989.jpg");
   padding: 10px;
+  color: white;
 }
+img{
+  width:100%;
+height:100%;
 
-/* Left and right column */
-.column.side {
-  width: 25%;
-  background-color: blue;
 }
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-
-/* Style the footer */
-.footer {
-  background-color: #8532a8
+footer {
+  background-image: url("http://rsa.or.id/wp/wp-content/uploads/2012/04/Trotoar-hak-pejalan-kaki.jpg");
   padding: 10px;
   text-align: center;
+  color: white;
 }
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>WARUNG JALANAN</h1>
-  <p>Warung Pilihan Anak Jalanan Indonesia:)</p>
-</div>
-
-<div class="topnav">
-  <a href="mknn.html">MAKANAN</a>
-  <a href="minum.html">MINUMAN</a>
-</div>
-
-
-  <div class="column middle">
-    <h2>nasi pecel</h2>
-     <h2>nasi lalapan</h2>
-     <h2>nasi goreng</h2>
-     <h2>soto ayam</h2>
-     <h2>nasi rawon</h2>
-  </div>
-
-    <div class="column middle">
-    <h2>es teh</h2>
-     <h2>es capucino</h2>
-     <h2>kopi tobruk</h2>
-     <h2>kopi madura</h2>
-     <h2>kopi rondo</h2>
-  </div>
-
-
-
-
-<div class="footer">
-  <p>dibuat oleh warung jalanan official</p>
-</div>
-  
-</body>
-</html>
-
+    </style>
+  </head>
+  <body>
+    <header>
+      <H1>WARUNG JALALAN </H1>
+    <div id ="runningtext">
+      <marquee behavior="scroll" scrollamount="35"
+      direction="left"><h4>selamat datang di web WARUNG JALALAN:D</h4></marquee>
+    </div>
+    </header>
+    <ul>
+        <li><a href="mknn.html">MAKANAN</a></li>
+        <li><a href="minum.html">MINUMAN</a></li>
+       
+    </ul>
+        <article>
+ <p>Di Indonesia, candi dapat ditemukan di pulau Jawa, Bali, Sumatra, dan Kalimantan, akan tetapi candi paling banyak ditemukan di kawasan Jawa Tengah dan Jawa Timur. Kebanyakan orang Indonesia mengetahui adanya candi-candi di Indonesia yang termasyhur seperti Borobudur, Prambanan, dan Mendut.Pada suatu era dalam sejarah Indonesia, yaitu dalam kurun abad ke-8 hingga ke-10 tercatat sebagai masa paling produktif dalam pembangunan candi. Pada kurun kerajaan Medang Mataram ini candi-candi besar dan kecil memenuhi dataran Kedu dan dataran Kewu di Jawa Tengah dan Yogyakarta. Hanya peradaban yang cukup makmur dan terpenuhi kebutuhan sandang dan pangannya sajalah yang mampu menciptakan karya cipta arsitektur bernilai seni tinggi seperti ini. Beberapa candi yang bercorak Hindu di Indonesia adalah Candi Prambanan, Candi Jajaghu (Candi Jago), Candi Gedongsongo, Candi Dieng, Candi Panataran, Candi Angin, Candi Selogrio, Candi Pringapus, Candi Singhasari, dan Candi Kidal. Candi yang bercorak Buddha antara lain Candi Borobudur dan Candi Sewu.[8] Candi Prambanan di Jawa Tengah adalah salah satu candi Hindu-Siwa yang paling indah. Candi itu didirikan pada abad ke-9 Masehi pada masa Kerajaan Mataram Kuno.</p>
+ <img src="https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/210/2017/11/05101441/entrance-candi-borobudur.jpg"><br><br>
+ <img src="https://kebudayaan.kemdikbud.go.id/bpcbjatim/wp-content/uploads/sites/33/2020/11/DSC_4730-scaled.jpg"><br><br>
+ <img src="https://4.bp.blogspot.com/-oU7feCH3oMY/VsxlQBVz3GI/AAAAAAAAAVY/Rjupcp1KA94/s1600/candi-singosari.jpg"><br><br>
+ <img src="https://i2.wp.com/www.infobudaya.net/wp-content/uploads/2018/02/candi-prambanan.jpg?fit=3840%2C2160"><br><br>
+ <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/candi-sewu-part-of-prambanan-hindu-temple-indonesia-auradius-photography.jpg">
+      <p>SOURCE</p>
+    <b>•https://id.m.wikipedia.org/wiki/Candi</b><br>
+    <b>•https://duckduckgo.com/?q=candi&va=n&t=ha&iax=images&ia=images</b>
+        </article>
+     <footer>
+    <h3>DIBUAT OLEH OFFICIAL WARUNG JALALAN</h3>
+  </footer>
+ 
+  </body>
+  </html>
