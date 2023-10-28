@@ -1,1 +1,25 @@
 <html>
+<head>
+<title>DAFTAR DESA KECAMATAN SILO</title>
+/head>
+<body>
+<header><h2>DAFTAR DESA</h2></header>
+<ul>
+<li><a href ="#desa garahan">kantor desa garahan </a></li>
+<li><a href ="#desa sidomulyo">kantor desa sidomulyo </a></li>
+<li><a href ="#desa silo">kantor desa silo</a></li>
+<li><a href ="#desa sempolan">kantor desa sempolan </a></li>
+<li><a href ="#desa karangharjo">kantor desa karangharjo</a></li>
+<li><a href ="#desa harjomulyo">kantor desa harjomulyo</a></li>
+</ul>
+<br>
+<article>
+<div stayle>="text-again=justify;witdh=97%;background-color:blue;border=1px solid#000099; ;red;border=1px solid#000099;padding:15px;"></mg sre "link="float=left;margin: 08px 2 px 0;"
+</di>
+</article>
+<footer>
+<p>makalah daftar desa kecamatan silo</p>
+</footer>
+</body>
+</html>
+
