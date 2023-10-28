@@ -1,99 +1,76 @@
-<!DOCTYPE html> <!-- ini adalah tag untuk membuat versi html 5 -->
-<html lang="en">
-<head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  background-color: #8532a8
-  background-image: url(gambar.jpg);
-  padding: 20px;
+<html>
+  <head>
+    <title>web Warung Jalanan</title>
+      <style>
+      header {
+  background-image: url("https://alindrabangunan.com/wp-content/uploads/2020/10/3-Bisnis-yang-Makin-Cuan-di-Era-Transaksi-Digital-Barakata_id.jpg");
+  padding: 30px;
   text-align: center;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #8532a8
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px black;
+ } 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover {
+            background-color: white;
+            color: black;
+            
+        }
+        article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-image: url("https://wallpapercave.com/wp/wp4586989.jpg");
   padding: 10px;
+  color: white;
 }
+img{
+  width:100%;
+height:100%;
 
-/* Left and right column */
-.column.side {
-  width: 25%;
-  background-color: blue;
 }
-
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-
-/* Style the footer */
-.footer {
-  background-color: #8532a8
+footer {
+  background-image: url("http://rsa.or.id/wp/wp-content/uploads/2012/04/Trotoar-hak-pejalan-kaki.jpg");
   padding: 10px;
   text-align: center;
+  color: white;
 }
-</style>
-</head>
-<body>
+    </style>
+  </head>
+  <body>
+    <header>
+      <H1>WARUNG JALALAN </H1>
+    <div id ="runningtext">
+      <marquee behavior="scroll" scrollamount="35"
+      direction="left"><h4>selamat datang di web WARUNG JALALAN:D</h4></marquee>
+    </div>
+    </header>
+    <ul>
+        <li><a href="mknn.html">MAKANAN</a></li>
+        <li><a href="minum.html">MINUMAN</a></li>
+       
 
-<div class="header">
-  <h1>WARUNG JALANAN</h1>
-  <p>Warung Pilihan Anak Jalanan Indonesia:)</p>
-</div>
-
-<div class="topnav">
-  <a href="#">MAKANAN</a>
-  <a href="#">MINUMAN</a>
-</div>
-
+    
    <div class="column middle">
     <h2>es teh</h2>
      <h2>es capucino</h2>
@@ -101,3 +78,9 @@ body {
      <h2>kopi madura</h2>
      <h2>kopi rondo</h2>
   </div>
+     <footer>
+    <h3>DIBUAT OLEH OFFICIAL WARUNG JALALAN</h3>
+  </footer>
+ 
+  </body>
+  </html>
