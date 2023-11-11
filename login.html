@@ -1,31 +1,34 @@
 <html>
-  <head>
-    <title>
-      login
-    </title>
-  </head>
-  <body>
-	 <form action="">
-  	<label for="username">Name:</label><br>
- 	<input type="text" id="username" name="username"><br>
- 	<label for="password">Password:</label><br>
- 	<input type="password" id="password" name="password"><br><br>
- 	<button class="input-button" type="button" onClick="Login()">Masuk</button>
-	</form>
-  <script>
-	function Login() {
-            var done = 0;
-            var username = document.login.username.value;
-            username = username.toLowerCase();
-            var password = document.login.password.value;
-            password = password.toLowerCase();
-            if (username == "tapai" && password == "123") {
+    <script language="JavaScript">
+        function Login(){ 
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+
+            if (user=="admin" && passw=="123"){
                 window.location.href = "https://smkibu.github.ip/dmi-xiimm3/index.html";
-            } else
-                if (done == 0) {
-                    alert("Username/Password yang anda masukan salah!");
-                }
+            }else{
+                alert("Username dan password anda salah!");
+            }
         }
-	</script>
-  </body>
+    </script>
+   <head>
+	   <title>Login</title>
+   </head>
+<body>
+    <form>
+        <table width="225" cellpadding="4">
+            <tr>
+                <td>Username</td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><input type="button" value="Login" onClick="Login()"></td>
+            </tr>
+        </table>
+    </form>
+</body>
 </html>
