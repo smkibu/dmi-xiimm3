@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <script language="JavaScript">
-        function Login(){ 
+<head>
+    <title>Form Login Sederhana</title>
+    <script>
+        function Login() {
             var user = document.getElementById("username").value;
             var pass = document.getElementById("password").value;
 
-            if (user=="admin" && passw=="123"){
-                window.location.href = "https://smkibu.github.ip/dmi-xiimm3/index.html";
-            }else{
-                alert("Username dan password anda salah!");
+            if (user === "admin" && pass === "123") {
+                alert("Selamat Anda berhasil login!");
+                // Ganti URL berikut dengan tautan yang diinginkan
+                window.location.href = "https://smkibu.github.io/dmi-xiimm3/index.html";
+            } else {
+                alert("Username dan password Anda salah!");
             }
         }
     </script>
-   <head>
-	   <title>Login</title>
-   </head>
+</head>
 <body>
     <form>
         <table width="225" cellpadding="4">
@@ -24,10 +26,12 @@
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="text" id="password"></td>
+                <td><input type="password" id="password"></td>
             </tr>
             <tr>
-                <td colspan="2" align="right"><input type="button" value="Login" onClick="Login()"></td>
+                <td colspan="2" align="right">
+                    <input type="button" value="Login" onClick="Login()">
+                </td>
             </tr>
         </table>
     </form>
