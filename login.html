@@ -5,6 +5,12 @@
     </title>
   </head>
   <body>
+	  <form>
+		<label>username:<br></label>
+		<input type="text" id="username">
+		<label>password:</label><br>
+		<input type=""password" id="password">
+	  </form>
   <script>
 	function Login() {
             var done = 0;
@@ -12,7 +18,7 @@
             username = username.toLowerCase();
             var password = document.login.password.value;
             password = password.toLowerCase();
-            if (username == "kotakode" && password == "kotakode") {
+            if (username == "tapai" && password == "123") {
                 window.location.href = "index.html";
             } else
                 if (done == 0) {
