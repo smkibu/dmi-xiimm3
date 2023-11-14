@@ -11,12 +11,14 @@
                 alert("Selamat Anda berhasil login Guru!");
                 // Ganti URL berikut dengan tautan yang diinginkan
                 window.location.href = "https://smkibu.github.io/dmi-xiimm3/folderlogin/guru.html";
-            } if (user === "siswa" && pass === "siswa") {
+            } else {
+                if (user === "siswa" && pass === "siswa") {
                 alert("Selamat Anda berhasil login Siswa! ");
                 // Ganti URL berikut dengan tautan yang diinginkan
                 window.location.href = "https://smkibu.github.io/dmi-xiimm3/folderlogin/siswa.html";
-            } else {
+                } else {
                 alert("Username dan password Anda salah!");
+                }    
             }
         }
     </script>
