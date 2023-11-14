@@ -12,7 +12,7 @@
 
 <div class="jumbotron text-center">
   <h1>LOGIN USER</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  <p>Isilah!!! Username dan Password Kamu dengan Benar</p> 
 </div>
 
 </body>
