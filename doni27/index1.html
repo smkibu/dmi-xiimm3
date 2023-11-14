@@ -17,7 +17,7 @@ body {
 .header {
   background-color: #f1f1f1;
   background-image: url(https://th.bing.com/th/id/OIP.ydhvjfppa_xBh0ffSB4g8AHaI5?pid=ImgDet&rs=1);
-  padding: 208px;
+  padding: 185px;
   text-align: center;
 }
 
@@ -84,9 +84,29 @@ body {
 </head>
 <body>
 
+ <form>
+        <table width="225" cellpadding="4">
+            <tr>
+                <td>Username</td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input type="button" value="Login" onClick="Login()">
+                </td>
+            </tr>
+        </table>
+    </form>
+
 <div class="header">
   <h1>Sejarah kota jember</h1>
-  <p></p>
+ <div id="running text">
+        <marquee behavior="scroll"scrollamount="10"direction="left"><h1>Jember kota Keren<h1/></marquee>
+      </div>
 </div>
 
 <div class="topnav">
@@ -95,8 +115,8 @@ body {
   <a href="#">kalisat</a>
 </div>
 
-<div class="row">
-  <div class="column side">
+<div class="raw">
+  <div class="column side ">
     <h2>Side</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
   </div>
@@ -114,5 +134,3 @@ body {
   
 </body>
 </html>
-
-
