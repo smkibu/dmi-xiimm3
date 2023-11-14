@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>cafe halal jember'ant</title>
+      <style>
+      header {
+  background-image: url("https://alindrabangunan.com/wp-content/uploads/2020/10/3-Bisnis-yang-Makin-Cuan-di-Era-Transaksi-Digital-Barakata_id.jpg");
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px black;
+ } 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover {
+            background-color: white;
+            color: black;
+            
+        }
+        article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-image: url("https://wallpapercave.com/wp/wp4586989.jpg");
+  padding: 10px;
+  color: white;
+}
+img{
+  width:100%;
+height:100%;
+
+}
+footer {
+  background-image: url("http://rsa.or.id/wp/wp-content/uploads/2012/04/Trotoar-hak-pejalan-kaki.jpg");
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <H1>cafe halal </H1>
+    <div id ="runningtext">
+      <marquee behavior="scroll" scrollamount="35"
+      direction="left"><h4>sampai kembali lagi di cafe kami:D</h4></marquee>
+    </div>
+    </header>
+    <ul>
+        <li><a href="mknn.html">MAKANAN</a></li>
+        <li><a href="minum.html">MINUMAN</a></li>
+       
+    </ul>
+<article>
+    <div class="column middle">
+    <h2>burger      30k</h2>
+     <h2>nasi lalapan   9k</h2>
+     <h2>nasi goreng    9k</h2>
+     <h2>soto ayam      12k</h2>
+     <h2>nasi rawon     14k</h2>
+    </article>
+     <footer>
+  </footer>
+ 
+  </body>
+  </html>
